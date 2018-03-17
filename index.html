@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello</title>
+    <style>
+    button{
+        background-color:#3349FF;
+    }
+    text {
+        color: blue;
+    }
+    .myimg{
+        width: 280px;
+        height: 280px;
+        background-image: url('D:\JavaScript\91236542eoKEZV_ph.jpg')
+    }
+    </style>
+   
+    <script>
+        function onalert(){
+            alert("hello all");
+        }
+        function onalerttext(text){
+            var arraytext = text + document.getElementById("mytext").Value;
+            alert(arraytext);
+        }
+    </script>
+</head>
+<body>
+    hello world 
+    
+    
+    <img style="width: 300px; height: 300px;" src="D:\JavaScript\91236542eoKEZV_ph.jpg" ></img>
+    
+    how are you
+    <button style="color:aqua" >hi</button>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <button onclick="onalert()" style="background-color:#E7FF33"><h1 style="color:blue">hello</h1></button>
+    
+    Please enter text: <input type="text" id="mytext"></input>
+    <button onclick="onalertext('hi ' )">OK</button>
+</body>
+</html>
